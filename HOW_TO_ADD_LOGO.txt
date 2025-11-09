@@ -1,0 +1,49 @@
+================================================================================
+HOW TO ADD YOUR LOGO IMAGE - QUICK GUIDE
+================================================================================
+
+STEP 1: Save Your Logo Image
+-----------------------------
+1. Save your logo image file (the Surigao del Norte State University logo)
+2. Rename it to: logo.png
+3. Place it in this folder:
+   static/images/logo.png
+
+STEP 2: Verify the File
+------------------------
+The file should be located at:
+   C:\Users\creen\Downloads\SYSTEM WEB\static\images\logo.png
+
+STEP 3: Refresh Your Browser
+-----------------------------
+1. Restart your Django server (if needed)
+2. Refresh your browser
+3. The logo will appear:
+   - In the dashboard header
+   - On the login page
+   - On the registration page
+   - As the browser tab icon (favicon)
+
+================================================================================
+FILE REQUIREMENTS
+================================================================================
+- File name: logo.png (case-sensitive)
+- Location: static/images/logo.png
+- Format: PNG (recommended) or JPG
+- Size: Any size (will be automatically resized)
+- Background: Transparent PNG works best
+
+================================================================================
+ALTERNATIVE: If you have a different file name
+================================================================================
+If your logo file has a different name (e.g., logo.jpg, university_logo.png):
+1. Rename it to logo.png, OR
+2. Edit templates/main/dashboard.html and change 'logo.png' to your filename
+
+================================================================================
+NEED HELP?
+================================================================================
+See ADD_LOGO_INSTRUCTIONS.md for detailed instructions.
+
+================================================================================
+
